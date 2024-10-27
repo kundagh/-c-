@@ -1,0 +1,18 @@
+//使用if判断某学生能否上洛阳理工
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main()
+{
+    printf("输入你的成绩\n");
+	int score;
+	scanf("%d%\n", &score);
+	if (score>=750)
+	{
+		printf("欢迎来皇家洛阳理工学院\n");
+	}
+	else
+	{
+		printf("滚滚滚\n");
+	}
+	return 0;
+}
