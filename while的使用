@@ -1,0 +1,22 @@
+//使用while循环后循环100次1后打印2
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main()
+{
+	int a = 0;
+	while (a < 100)
+	{
+		printf("1\n");
+		a++;
+	}
+	if (a >=100)
+	{
+		printf("2\n");
+	}
+	else
+	{
+		printf("3\n");
+	}
+
+	return 0;
+}
