@@ -1,0 +1,7 @@
+使用printf打印‘好好学习’
+#include<stdio.h>
+int main()
+{
+	printf("好好学习\n");
+	return 0;
+}
